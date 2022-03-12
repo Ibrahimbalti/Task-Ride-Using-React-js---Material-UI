@@ -1,9 +1,12 @@
 import Navbar from "./components/layout/Navbar";
-
+import { Filters } from './components/filter/Filters'
+import { Rides } from "./components/Rides/Rides";
 function App() {
   return (
     <div >
-     <Navbar/>
+      <Navbar />
+      <Filters />
+      <Rides />
     </div>
   );
 }
